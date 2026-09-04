@@ -1,0 +1,23 @@
+{
+  "skill_name": "norikae",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我後天早上想從新宿搭電車去成田機場，大概 8 點出發，幫我查怎麼搭、要多少錢",
+      "expected_output": "Routes from 新宿 to 成田空港 departing ~08:00 two days from now, with times, fares (incl. N'EX surcharge if applicable), transfers; presented in Chinese with Japanese station names",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "what's the last train from Shibuya back to Kichijoji tonight?",
+      "expected_output": "Last-train (終電) route from 渋谷 to 吉祥寺 tonight (JST), using --when last, with departure time and line",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "查京都車站到大阪車站的車，我要最便宜的坐法，不趕時間",
+      "expected_output": "Cheapest routes 京都→大阪 (--sort fare), fares highlighted, no Shinkansen needed",
+      "files": []
+    }
+  ]
+}
