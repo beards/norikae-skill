@@ -15,18 +15,21 @@ surcharges, transfer/walk segments, and station-name disambiguation candidates.
 ## Usage
 
 ```bash
-python3 scripts/norikae.py 東京 新宿
-python3 scripts/norikae.py 渋谷 横浜 --when last
-python3 scripts/norikae.py --help
+python3 skills/norikae/scripts/norikae.py 東京 新宿
+python3 skills/norikae/scripts/norikae.py 渋谷 横浜 --when last
+python3 skills/norikae/scripts/norikae.py --help
 ```
 
 Python 3 stdlib only, no dependencies.
 
-## Install as a Claude Code skill
+## Install
 
 ```bash
-ln -s "$(pwd)" ~/.claude/skills/norikae
+gh skill install beards/norikae-skill norikae --agent claude-code
 ```
+
+`gh skill` supports many other agents — see [`gh skill install --help`](https://cli.github.com/manual/gh_skill_install)
+for more details.
 
 ## Caveats
 
